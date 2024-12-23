@@ -14,3 +14,6 @@ werkzeug==2.0.2
 click==8.1.7
 molvs==0.1.1
 rdkit-pypi
+libxrender1
+libxext6
+libsm6
