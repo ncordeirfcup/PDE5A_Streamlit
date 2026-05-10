@@ -84,7 +84,7 @@ def main():
     if smiles:
         # Generate fingerprint
         mol, fingerprint = generate_fingerprint(smiles)
-        act_trans,fig2,l1,l2=mycalc('fatimaBest.pickle',smiles)
+        
 
         if mol is None:
             st.error("Invalid SMILES notation. Please try again.")
@@ -119,7 +119,7 @@ def main():
             st.markdown('<span style="color:green">The fragments of the molecule that increase the inhibitory activity of the compound</span>', unsafe_allow_html=True)
             st.markdown('<span style="color:red">The fragments of the molecule that decrease the inhibitory activity of the compound</span>', unsafe_allow_html=True)
 
- 
+            act_trans,fig2,l1,l2=mycalc('fatimaBest.pickle',smiles)
             # Predict activity for Transformer-CNN based model
             st.write("## Predicted activity, AD and similarity map (as per Transformer-CNN-based model)")
 
