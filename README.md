@@ -18,7 +18,7 @@ rdkit==2023.03.2
 git clone https://github.com/ncordeirfcup/PDE5A_Streamlit.git (or download the zip file and extract).
 
 # Running:
-Open Anaconda prompt and navigate to PDE5A_Streamlit directory. Run the following commands:
+Open Anaconda prompt and navigate to PDE5A_Streamlit directory. Run the following commands:  
 conda create --name myenv python=3.11.3  
 conda activate myenv  
 pip install -r requirements.txt  
