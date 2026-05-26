@@ -13,3 +13,14 @@ jinja2==2.11.3
 click==8.1.7
 molvs==0.1.1
 rdkit==2023.03.2
+
+# Installation:
+git clone https://github.com/ncordeirfcup/PDE5A_Streamlit.git (or download the zip file and extract).
+
+# Running:
+Open Anaconda prompt and navigate to PDE5A_Streamlit directory. Run the following commands:
+conda create --name myenv python=3.11.3
+conda activate myenv
+pip install -r requirements.txt
+streamlit run app.py
+
